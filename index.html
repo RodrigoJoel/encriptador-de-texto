@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Encriptador-Desencriptador</title>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/posibleLogo.jpg" alt="Logo de alura" class="logo">
+        <div>
+            <h6 class="Informacion">Encriptador-Desencriptador de texto. Solo letras minúsculas y sin acentos</h6>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="text-area-container">
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui!!"></textarea>
+            </div>
+            <!--<div>
+                <h6 class="Informacion">Encriptador-Desencriptador de texto. Solo letras minúsculas y sin acentos</h6>
+            </div>-->
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="mensaje-contenedor">
+            <textarea class="mensaje" cols="20" rows="10">Mensaje Encriptado-Desencriptado</textarea>
+            <div>
+                <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p class="copyright">&copy Copyright Rodrigo Joel Nuñez - 2024</p>
+    </footer>
+</body>
+</html>
